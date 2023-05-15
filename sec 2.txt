@@ -1,0 +1,13 @@
+Enabling NTP Server first
+
+
+1-ntp server (ip of ntp)
+2-ntp authenticate
+3-ntp trusted-key 1
+4-ntp authentication-key 1 md5 cisco
+5-ntp update-calendar
+
+
+1 - service timestamps log datetime msec
+2 - logging host 192.168.1.2
+
